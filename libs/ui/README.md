@@ -1,6 +1,6 @@
 # ui
 
-This library contains the ui components which are used in the company
+This Library containes the ui components which are used in the company
 
 # Banner
 
