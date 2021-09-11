@@ -12,18 +12,14 @@
       "rules": {
         "@angular-eslint/directive-selector": [
           "error",
-          { "type": "admin", "prefix": "admin", "style": "camelCase" }
+          { "type": "attribute", "prefix": "admin", "style": "camelCase" }
         ],
         "@angular-eslint/component-selector": [
           "error",
-          { "type": "admin", "prefix": "admin", "style": "kebab-case" }
+          { "type": "element", "prefix": "admin", "style": "kebab-case" }
         ]
       }
     },
-    {
-      "files": ["*.html"],
-      "extends": ["plugin:@nrwl/nx/angular-template"],
-      "rules": {}
-    }
+    { "files": ["*.html"], "extends": ["plugin:@nrwl/nx/angular-template"], "rules": {} }
   ]
 }
